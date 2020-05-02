@@ -1,0 +1,104 @@
+70:916  62:953  Found BIOS RSDP at %p
+70:916  0:000  Printing ACPI tables from RSDP %p ...
+70:916  0:000   %p: 'RSD PTR n_ASUS_(°ËÔ$', Rev: 17817879 (Acpi 2.0 or newer), Len: 36
+70:916  0:000    (Xsdt: %p, Rsdt: %p)
+70:916  0:000    %p: 'XSDTt', 'XSDT', Rev: 17817703, Len: 1
+70:916  0:000    %p: 'RSDTD', 'RSDT', Rev: 17817703, Len: 1
+70:916  0:000    Tables in Xsdt: 10
+70:916  0:000    0. %p: 'FACP', 'FACP', Rev: 17817703, Len: 5
+70:916  0:000        (Dsdt: D4CBB188, Facs: D5108080, XDsdt: d4cbb188, XFacs: 0)
+70:916  0:000        %p: 'DSDTîð', 'DSDT', Rev: 17817559, Len: 2
+70:917  0:001        %p: 'FACS@', Ver: 17817723, Len: 2
+70:917  0:000    1. %p: 'APICr', 'APIC', Rev: 17817703, Len: 3
+70:917  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817703, Len: 1
+70:917  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817703, Len: 1
+70:917  0:000    4. %p: 'SSDTé', 'SSDT', Rev: 17817703, Len: 1
+70:917  0:000    5. %p: 'HPET8', 'HPET', Rev: 17817703, Len: 1
+70:917  0:000    6. %p: 'SSDTB', 'SSDT', Rev: 17817703, Len: 1
+70:917  0:000    7. %p: 'SSDT&	', 'SSDT', Rev: 17817703, Len: 1
+70:917  0:000    8. %p: 'SSDT’
+', 'SSDT', Rev: 17817703, Len: 1
+70:917  0:000    9. %p: 'SSDTv', 'SSDT', Rev: 17817703, Len: 1
+70:917  0:000    Tables in Rsdt: 8
+70:917  0:000    0. %p: 'FACP„', 'FACP', Rev: 17817703, Len: 2
+70:917  0:000        (Dsdt: D4CBB188, Facs: D5108040)
+70:917  0:000        %p: 'DSDTîð', 'DSDT', Rev: 17817559, Len: 2
+70:918  0:001        %p: 'FACS@', Ver: 17817723, Len: 0
+70:918  0:000    1. %p: 'APICr', 'APIC', Rev: 17817703, Len: 3
+70:918  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817703, Len: 1
+70:918  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817703, Len: 1
+70:918  0:000    4. %p: 'SSDTé', 'SSDT', Rev: 17817703, Len: 1
+70:918  0:000    5. %p: 'HPET8', 'HPET', Rev: 17817703, Len: 1
+70:918  0:000    6. %p: 'SSDTB', 'SSDT', Rev: 17817703, Len: 1
+70:918  0:000    7. %p: 'SSDT&	', 'SSDT', Rev: 17817703, Len: 1
+70:918  0:000  Found UEFI Acpi 2.0 RSDP at %p
+70:918  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’å½®åå•ÉŸë€¨í“‹$ ...
+70:918  0:000   %p: 'RSD PTR n_ASUS_(°ËÔ$', Rev: 17817879 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+70:923  0:005    (Xsdt: %p, Rsdt: %p)
+70:923  0:000    %p: 'XSDTt', 'XSDT', Rev: 17817703, Len: 1 -> XSDT.aml
+70:928  0:005    %p: 'RSDTD', 'RSDT', Rev: 17817703, Len: 1 -> RSDT.aml
+70:934  0:005    Tables in Xsdt: 10
+70:934  0:000    0. %p: 'FACP', 'FACP', Rev: 17817703, Len: 5 -> FACP.aml
+70:939  0:005        (Dsdt: D4CBB188, Facs: D5108080, XDsdt: d4cbb188, XFacs: 0)
+70:939  0:000        %p: 'DSDTîð', 'DSDT', Rev: 17817559, Len: 2 -> DSDT.aml
+70:949  0:010        %p: 'FACS@', Ver: 17817723, Len: 2 -> FACS.aml
+70:954  0:005    1. %p: 'APICr', 'APIC', Rev: 17817703, Len: 3 -> APIC.aml
+70:959  0:005    2. %p: 'FPDTD', 'FPDT', Rev: 17817703, Len: 1 -> FPDT.aml
+70:965  0:005    3. %p: 'MCFG<', 'MCFG', Rev: 17817703, Len: 1 -> MCFG.aml
+70:970  0:005    4. %p: 'SSDTé', 'SSDT', Rev: 17817703, Len: 1 -> SSDT-0-PtidDevc.aml
+70:975  0:005    5. %p: 'HPET8', 'HPET', Rev: 17817703, Len: 1 -> HPET.aml
+70:980  0:005    6. %p: 'SSDTB', 'SSDT', Rev: 17817703, Len: 1 -> SSDT-1-SataTabl.aml
+70:986  0:005    7. %p: 'SSDT&	', 'SSDT', Rev: 17817703, Len: 1 -> SSDT-2-Cpu0Ist.aml
+70:992  0:006    8. %p: 'SSDT’
+', 'SSDT', Rev: 17817703, Len: 1 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
+70:997  0:005        * 3542921240: 'SSDT', 'CpuPm', Rev: 1, Len: 2706  53 53 44 54 92 0A 00 00 01 16 50 6D 52 65 66 00 Internal length = 2706 -> SSDT-x3_0-CpuPm.aml
+71:003  0:005        * 3567598232: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x3_1-ApIst.aml
+71:008  0:005        * 3567591448: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 D8 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x3_2-Cpu0Cst.aml
+71:013  0:005        * 3567602712: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_3-ApCst.aml
+71:019  0:005  
+71:019  0:000    9. %p: 'SSDTv', 'SSDT', Rev: 17817703, Len: 1 -> SSDT-4-SgTabl.aml
+71:028  0:009    Tables in Rsdt: 8
+71:028  0:000    0. %p: 'FACP„', 'FACP', Rev: 17817703, Len: 2 -> RSDT-FACP.aml
+71:033  0:005        (Dsdt: D4CBB188, Facs: D5108040)
+71:033  0:000        %p: 'DSDTîð', 'DSDT', Rev: 17817559, Len: 2
+71:034  0:001        %p: 'FACS@', Ver: 17817723, Len: 0 -> RSDT-FACS.aml
+71:040  0:005    1. %p: 'APICr', 'APIC', Rev: 17817703, Len: 3
+71:040  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817703, Len: 1
+71:040  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817703, Len: 1
+71:040  0:000    4. %p: 'SSDTé', 'SSDT', Rev: 17817703, Len: 1
+71:040  0:000    5. %p: 'HPET8', 'HPET', Rev: 17817703, Len: 1
+71:040  0:000    6. %p: 'SSDTB', 'SSDT', Rev: 17817703, Len: 1
+71:040  0:000    7. %p: 'SSDT&	', 'SSDT', Rev: 17817703, Len: 1
+71:040  0:000  Found UEFI Acpi 1.0 RSDP at %p
+71:040  0:000  Printing ACPI tables from RSDP %p ...
+71:040  0:000   %p: 'RSD PTR n_ASUS_(°ËÔ$', Rev: 17817879 (Acpi 2.0 or newer), Len: 36
+71:040  0:000    (Xsdt: %p, Rsdt: %p)
+71:040  0:000    %p: 'XSDTt', 'XSDT', Rev: 17817703, Len: 1
+71:040  0:000    %p: 'RSDTD', 'RSDT', Rev: 17817703, Len: 1
+71:040  0:000    Tables in Xsdt: 10
+71:040  0:000    0. %p: 'FACP', 'FACP', Rev: 17817703, Len: 5
+71:040  0:000        (Dsdt: D4CBB188, Facs: D5108080, XDsdt: d4cbb188, XFacs: 0)
+71:040  0:000        %p: 'DSDTîð', 'DSDT', Rev: 17817559, Len: 2
+71:041  0:001        %p: 'FACS@', Ver: 17817723, Len: 2
+71:041  0:000    1. %p: 'APICr', 'APIC', Rev: 17817703, Len: 3
+71:041  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817703, Len: 1
+71:041  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817703, Len: 1
+71:041  0:000    4. %p: 'SSDTé', 'SSDT', Rev: 17817703, Len: 1
+71:041  0:000    5. %p: 'HPET8', 'HPET', Rev: 17817703, Len: 1
+71:041  0:000    6. %p: 'SSDTB', 'SSDT', Rev: 17817703, Len: 1
+71:041  0:000    7. %p: 'SSDT&	', 'SSDT', Rev: 17817703, Len: 1
+71:041  0:000    8. %p: 'SSDT’
+', 'SSDT', Rev: 17817703, Len: 1
+71:041  0:000    9. %p: 'SSDTv', 'SSDT', Rev: 17817703, Len: 1
+71:041  0:000    Tables in Rsdt: 8
+71:041  0:000    0. %p: 'FACP„', 'FACP', Rev: 17817703, Len: 2
+71:041  0:000        (Dsdt: D4CBB188, Facs: D5108040)
+71:041  0:000        %p: 'DSDTîð', 'DSDT', Rev: 17817559, Len: 2
+71:042  0:001        %p: 'FACS@', Ver: 17817723, Len: 0
+71:042  0:000    1. %p: 'APICr', 'APIC', Rev: 17817703, Len: 3
+71:042  0:000    2. %p: 'FPDTD', 'FPDT', Rev: 17817703, Len: 1
+71:042  0:000    3. %p: 'MCFG<', 'MCFG', Rev: 17817703, Len: 1
+71:042  0:000    4. %p: 'SSDTé', 'SSDT', Rev: 17817703, Len: 1
+71:042  0:000    5. %p: 'HPET8', 'HPET', Rev: 17817703, Len: 1
+71:042  0:000    6. %p: 'SSDTB', 'SSDT', Rev: 17817703, Len: 1
+71:042  0:000    7. %p: 'SSDT&	', 'SSDT', Rev: 17817703, Len: 1
