@@ -534,7 +534,7 @@
 		<key>InjectSystemID</key>
 		<true/>
 		<key>NoCaches</key>
-		<false/>
+		<true/>
 	</dict>
 </dict>
 </plist>
