@@ -143,7 +143,7 @@
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>MacOSß</string>
+		<string>MacOS</string>
 		<key>Log</key>
 		<false/>
 		<key>NeverHibernate</key>
