@@ -1,0 +1,225 @@
+{
+  "update_wait": 172800,
+  "built_kexts": [
+    {
+      "name": "ACPIBacklight",
+      "url": "https://github.com/rehabman/os-x-acpi-backlight",
+      "last_built": "219bae64e8580ed77ce1923cd70ace9aaf0fa0f2"
+    },
+    {
+      "name": "ACPIBatteryManager",
+      "url": "https://github.com/rehabman/os-x-acpi-battery-driver",
+      "last_built": "ef6159e915373555bc65b08ab495d068321b750a"
+    },
+    {
+      "name": "ATH9KFixup",
+      "url": "https://github.com/black-dragon74/ath9kfixup",
+      "last_built": "1089aee9e941e379a8cbb796ba3231284239a07b"
+    },
+    {
+      "name": "AirportBrcmFixup",
+      "url": "https://github.com/acidanthera/airportbrcmfixup",
+      "last_built": "99cb6eb46cd6a702d5a7f5f3b0673dd128998226"
+    },
+    {
+      "name": "AppleALC",
+      "url": "https://github.com/acidanthera/applealc",
+      "last_built": "d6cf2f004bc9032d59e9c2c96d8adb89f62a2426"
+    },
+    {
+      "name": "AppleBacklightFixup",
+      "url": "https://github.com/rehabman/applebacklightfixup",
+      "last_built": "18e6a1ab096fa93119b395c666f8740f232db6b9"
+    },
+    {
+      "name": "AtherosE2200Ethernet",
+      "url": "https://github.com/mieze/atherose2200ethernet",
+      "last_built": "299eec268dda1c9e630e84277e2eade9a1b9bdeb"
+    },
+    {
+      "name": "AzulPatcher4600",
+      "url": "https://github.com/coderobe/azulpatcher4600",
+      "last_built": "4209eb1465e4821a8bc26677dcf92751b6919bac"
+    },
+    {
+      "name": "BCM5722D",
+      "url": "https://github.com/adlan/bcm5722d",
+      "last_built": "16927f72c2ea48ad4483571da022a803777cde16"
+    },
+    {
+      "name": "BT4LEContinuityFixup",
+      "url": "https://github.com/acidanthera/bt4lecontinuityfixup",
+      "last_built": "aadb911fd9230fce84004cdf9e571111330dc06d"
+    },
+    {
+      "name": "BrcmPatchRAM",
+      "url": "https://github.com/rehabman/os-x-brcmpatchram",
+      "last_built": "a20ebda09d583a85770ddcfdb0e8ab973b7a46b8"
+    },
+    {
+      "name": "BrcmPatchRAM (Acidanthera)",
+      "url": "https://github.com/acidanthera/brcmpatchram",
+      "last_built": "d5607e46e65ef4d8cd1c4585d19a3fccfeeaa088"
+    },
+    {
+      "name": "CPUFriend",
+      "url": "https://github.com/pmheart/cpufriend",
+      "last_built": "7657918b8a33ed1a67dc190e653d2170d68caff1"
+    },
+    {
+      "name": "CodecCommander",
+      "url": "https://github.com/rehabman/eapd-codec-commander",
+      "last_built": "a1219d7dafeadfb9e9d881d47ac9a677168b3fa6"
+    },
+    {
+      "name": "DiskArbitrationFixup",
+      "url": "https://github.com/goldfish64/diskarbitrationfixup",
+      "last_built": "5670dddc49cfaf5b5fb54b0335f98a4df7ada1a0"
+    },
+    {
+      "name": "EnableLidWake",
+      "url": "https://github.com/syscl/enablelidwake",
+      "last_built": "c0d12d3aebde5bba189ccab2aeee832d68c4f4b2"
+    },
+    {
+      "name": "FakePCIID",
+      "url": "https://github.com/rehabman/os-x-fake-pci-id",
+      "last_built": "ead10626106253aa5f1998e6818d248bffd16265"
+    },
+    {
+      "name": "FakeSMC (Kozlek)",
+      "url": "https://github.com/kozlek/hwsensors",
+      "last_built": "ddf53ec17864fec389ce6e51a5f7385c99e17673"
+    },
+    {
+      "name": "FakeSMC (Legacy)",
+      "url": "https://git.code.sf.net/p/hwsensors/code",
+      "last_built": "dcbfa0ea3e9d3e3761fa16d316483c6af3cc1e7d"
+    },
+    {
+      "name": "FakeSMC (RehabMan)",
+      "url": "https://github.com/rehabman/os-x-fakesmc-kozlek",
+      "last_built": "5505994083350d2130942405aab15678b84ba7ea"
+    },
+    {
+      "name": "GenericUSBXHCI",
+      "url": "https://github.com/rehabman/os-x-generic-usb3",
+      "last_built": "b76a36f4410eaea39069a95a4f22755586a197ec"
+    },
+    {
+      "name": "HWSensors (Kozlek)",
+      "url": "https://github.com/kozlek/hwsensors",
+      "last_built": "ddf53ec17864fec389ce6e51a5f7385c99e17673"
+    },
+    {
+      "name": "HWSensors (Legacy)",
+      "url": "https://git.code.sf.net/p/hwsensors/code",
+      "last_built": "dcbfa0ea3e9d3e3761fa16d316483c6af3cc1e7d"
+    },
+    {
+      "name": "HWSensors (RehabMan)",
+      "url": "https://github.com/rehabman/os-x-fakesmc-kozlek",
+      "last_built": "5505994083350d2130942405aab15678b84ba7ea"
+    },
+    {
+      "name": "HibernationFixup",
+      "url": "https://github.com/acidanthera/hibernationfixup.git",
+      "last_built": "a83578a2eadd13b460b7bef29b565e2761994707"
+    },
+    {
+      "name": "IntelBacklight",
+      "url": "https://github.com/rehabman/os-x-intel-backlight",
+      "last_built": "1c46961a9fdd26c44b6e12744391d3dc0ad96ed3"
+    },
+    {
+      "name": "IntelMausi (Acidanthera)",
+      "url": "https://github.com/acidanthera/intelmausi",
+      "last_built": "179a3b305f4df017db7847d28cbd189d40089980"
+    },
+    {
+      "name": "IntelMausiEthernet",
+      "url": "https://github.com/mieze/intelmausiethernet",
+      "last_built": "96a7dc2ef28520d521d3db82701ba06230999517"
+    },
+    {
+      "name": "IntelMausiEthernet (RehabMan)",
+      "url": "https://github.com/rehabman/os-x-intel-network",
+      "last_built": "be6e695b41123bd93eb1a888dff125b1bc1a8d98"
+    },
+    {
+      "name": "Lilu",
+      "url": "https://github.com/acidanthera/lilu",
+      "last_built": "3ec7dca352038b309a79f54226314fcd02fe7417"
+    },
+    {
+      "name": "LiluFriend",
+      "url": "https://github.com/pmheart/lilufriend",
+      "last_built": "6f700e72bde37ee271e740da6e6395d94efb6747"
+    },
+    {
+      "name": "NVMeFix",
+      "url": "https://github.com/acidanthera/nvmefix.git",
+      "last_built": "9ebd6c3de0182a1debb0f17f9b5bb5a05391f862"
+    },
+    {
+      "name": "NoTouchID",
+      "url": "https://github.com/al3xtjames/notouchid",
+      "last_built": "220f4d4137e015a1fd530141c672f0fd591b004b"
+    },
+    {
+      "name": "NoVPAJpeg",
+      "url": "https://github.com/vulgo/novpajpeg",
+      "last_built": "e7e1d60e9bf9bf4fb24db82a4dea4775f3f90865"
+    },
+    {
+      "name": "NullCPUPowerManagement",
+      "url": "https://github.com/corpnewt/nullcpupowermanagement",
+      "last_built": "525f7da6aeb7cd3716378663cecec21f5e4cc273"
+    },
+    {
+      "name": "RealtekRTL8100",
+      "url": "https://github.com/mieze/realtekrtl8100",
+      "last_built": "2bde041d8de494b088692b79349e0125f36eeba2"
+    },
+    {
+      "name": "RealtekRTL8111",
+      "url": "https://github.com/mieze/rtl8111_driver_for_os_x",
+      "last_built": "792187d5166b0c40557180b5176dd3cb18c1c8f3"
+    },
+    {
+      "name": "USBInjectAll",
+      "url": "https://github.com/rehabman/os-x-usb-inject-all",
+      "last_built": "ad591b348fb6f0d407c2de846585b9f92876d6d8"
+    },
+    {
+      "name": "VirtualSMC",
+      "url": "https://github.com/acidanthera/virtualsmc",
+      "last_built": "83f6edc7b066f8f921aabf5ef05a380550a7a431"
+    },
+    {
+      "name": "VirtualSMC (All Tools)",
+      "url": "https://github.com/acidanthera/virtualsmc",
+      "last_built": "83f6edc7b066f8f921aabf5ef05a380550a7a431"
+    },
+    {
+      "name": "VoodooInput",
+      "url": "https://github.com/acidanthera/voodooinput",
+      "last_built": "37face3c7ac368d24507881da9821c08784f0830"
+    },
+    {
+      "name": "VoodooPS2Controller",
+      "url": "https://github.com/rehabman/os-x-voodoo-ps2-controller",
+      "last_built": "4c050446228b284b51b29b9dab312238df793915"
+    },
+    {
+      "name": "VoodooPS2Controller (Acidanthera)",
+      "url": "https://github.com/acidanthera/voodoops2",
+      "last_built": "a3f8191e07a905e6817e7a9e252ee39f06e04837"
+    },
+    {
+      "name": "WhateverGreen",
+      "url": "https://github.com/acidanthera/whatevergreen",
+      "last_built": "9e206e369a786689958a24ba7e08ff12b7203f49"
+    }
+  ]
+}
